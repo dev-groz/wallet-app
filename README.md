@@ -11,7 +11,7 @@
 **Тело запроса:**
 ```json
 {
-  "walletId": "UUID",
+  "valletId": "UUID",
   "operationType": "DEPOSIT or WITHDRAW",
   "amount": "int"
 }
@@ -19,7 +19,7 @@
 **Пример запроса:**
 ```json
 {
-  "walletId": "550e8400-e29b-41d4-a716-446655440000",
+  "valletId": "550e8400-e29b-41d4-a716-446655440000",
   "operationType": "DEPOSIT",
   "amount": 1000
 }
